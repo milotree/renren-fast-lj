@@ -99,11 +99,11 @@
 			<version>${mysql.version}</version>
 		</dependency>
 		 <!--oracle驱动-->
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>${oracle.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.oracle</groupId>-->
+<!--			<artifactId>ojdbc6</artifactId>-->
+<!--			<version>${oracle.version}</version>-->
+<!--		</dependency>-->
 		 <!--mssql驱动-->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
@@ -292,7 +292,7 @@
 					<!--</execution>-->
 				<!--</executions>-->
 				<configuration>
-					<imageName>renren/fast</imageName>
+					<imageName>renren-fast</imageName>
 					<dockerDirectory>${project.basedir}</dockerDirectory>
 					<resources>
 						<resource>

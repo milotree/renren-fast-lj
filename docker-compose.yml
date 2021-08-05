@@ -1,5 +1,5 @@
 version: '2'
-  services:
+ services:
   renren-fast:
     image: renren/fast
     ports:
